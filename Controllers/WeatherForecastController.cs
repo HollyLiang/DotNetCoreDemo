@@ -41,5 +41,32 @@ namespace DotNetCoreDemo.Controllers
         {
             return "Hello World!";
         }
+
+
+        [HttpPost("HelloWorld")]
+        public String HelloWorldPost()
+        {
+            return "Hello World Post!";
+        }
+
+        [HttpPut("HelloWorld")]
+        public String HelloWorldPut()
+        {
+            return "Hello World Put!";
+        }
+
+        [HttpDelete("HelloWorld")]
+        public String HelloWorldDelete()
+        {
+            return "Hello World Delete!";
+        }
+
+
+        [HttpGet("refreshauth")]
+        public async Task<IActionResult> RefreshAuth()
+        {
+            return Ok();
+        }
+
     }
 }

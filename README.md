@@ -4,5 +4,5 @@
 
 ## Development
 
-安裝 .NET Core SDK 3.1，使用 `dotnet run` 來執行，結果可在 `https://localhost:5001/` 查看。
+安裝 .NET Core SDK 5，使用 `dotnet run` 來執行，結果可在 `https://localhost:5001/` 查看。
 
